@@ -1,411 +1,229 @@
 
 <!DOCTYPE html>
-<html lang="UTF-8">
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Rolls-Royce Phantom's web datail page, redesigned by Skyler</title>
-  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600&display=swap"
-    rel="stylesheet" />
-  <link href="//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css" rel="stylesheet" type="text/css" />
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/Background.svg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>Shree Gopi Engineering</title>
 </head>
 
 <body>
-  <!-- Logo image -->
-  <section id="logo">
-    <img src="./images/logo-image.jpg" class="logo__image" alt="Rolls-Royce's logo image">
-  </section>
-
-  <!-- Navbar -->
-  <nav id="navbar" class="text-eng">
-    <ul class="navbar__links">
-      <li class="navbar__link_item active" data-link="#home">HOME</li>
-      <li class="navbar__link_item" data-link="#intro">INTRO</li>
-      <li class="navbar__link_item" data-link="#design">DESIGN</li>
-      <li class="navbar__link_item" data-link="#gallery">GALLERY</li>
-      <li class="navbar__link_item" data-link="#spec">VIEW SPECS</li>
-    </ul>
-    <!-- Toggle Button -->
-    <input class="nav-toggle" id="nav-toggle" type="checkbox">
-    <label class="navicon" for="nav-toggle"><span class="navicon-bar"></span></label>
-  </nav>
-
-  <!-- Home -->
-  <section id="home" class="text-kor">
-    <img src="./images/home-image.png" class="home__image" alt="Home image">
-    <h1 class="sr-only">
-      This is Rolls-Royce Phantom's web datail page, redesigned by Skyler Seo
-    </h1>
-    <dl>
-      <div>
-        <dt class="text-eng">
-          An Extraordinary<br />
-          Presence
-        </dt>
-        <dd>
-          거부할 수 없는 매력.<br />
-          <span class="home__dd-enter"></span>
-          시간을 초월하는 존재감.<br />
-          <span class="home__dd-enter"></span>
-          이것이 바로 모던 자동차를<br />
-          과감하게 해석한 시그니처<br />
-          롤스로이스입니다.
-        </dd>
-      </div>
-      <div>
-        <dt class="text-eng">
-          The Loudest sound<br />
-          is your Heartbeat
-        </dt>
-        <dd>
-          <span class="text-eng">Phantom</span>은 롤스로이스의<br />
-          <span class="text-eng">New Model Architecture</span> 가 적용된<br />
-          최초의 차량입니다.<br />
-          <span class="home__dd-enter"></span>
-          새롭게 설계된 알루미늄 스페이스 프레임은<br />
-          더욱 가볍고 견고하며,<br />
-          우아하고 고요한 승차감을 제공합니다.
-        </dd>
-      </div>
-      <div>
-        <dt class="text-eng">
-          Refined. Composed.<br />
-          Iconic.
-        </dt>
-        <dd>
-          <span class="text-eng">Phantom</span>에 탑승하는 경험은<br />
-          누구나 기대하게 되지만,<br />
-          그 누구도 예측할 수 없습니다.<br />
-          <span class="home__dd-enter"></span>
-          리어 액슬 스티어링, 액티브 자세 제어,<br />
-          그리고 에어 서스펜션으로<br />
-          우아하면서도 아름다울 정도로<br />
-          균형 잡힌 주행감을 선사합니다.
-        </dd>
-      </div>
-    </dl>
-  </section>
-
-  <!-- Introduction -->
-  <section id="intro" class="text-eng">
-    <h1 class="intro__title">
-      INTRO
-    </h1>
-    <div class="intro__first">
-      <img src="./images/mobile-intro-image-1.jpg" alt="Silver PHANTOM's picture">
-      <div class="sr-only">
-        <h1>PHANTOM</h1>
-        <h2>Rolls Royce 2018</h2>
-        <p>
-          A WITNESS TO<br />
-          GREATNESS
-        </p>
-      </div>
-    </div>
-    <div class="intro__second">
-      <img src="./images/mobile-intro-image-2.png" alt="Violet PHANTOM's picture">
-      <p class="sr-only">
-        A STATEMENT OF<br />
-        ORIGINALITY
-      </p>
-    </div>
-  </section>
-
-  <!-- Design -->
-  <section id="design" class="text-kor">
-    <h1 class="design__title text-eng">
-      DESIGN
-    </h1>
-    <img src="./images/mobile-design-interior-image-1.png" alt="Interior images 1">
-    <div class="sr-only">
-      <p>
-        <span class="text-eng">Phantom</span>의 실내 공간은 럭셔리와 편의성의
-        결정체이며,<br />
-        실내 공간 전체를 덮는 스타라이트 헤드라이너는<br />
-        <span class="text-eng">Phantom</span>에 탑승하는 경험을 더욱
-        빛내줍니다.
-      </p>
-      <p>
-        <span class="text-eng">Phantom</span>은<br />
-        경외심을 자극합니다.
-      </p>
-      <h2 class="text-eng">
-        Pushing the<br />
-        Boundaries
-      </h2>
-    </div>
-
-    <div class="sr-only">
-      <h2 class="text-eng">
-        A Silent<br />
-        Retreat
-      </h2>
-      <p>
-        이것이 바로<br />
-        <span class="text-eng">Phantom</span>의<br />
-        실내공간입니다.
-      </p>
-      <p>가장 고급스러운 축감.</p>
-      <p>
-        승객을 감싸는 최상급<br />
-        소재는 그 누구도<br />
-        모방할 수 없는<br />
-        편안함과 개성 넘치는<br />
-        공간을 완성합니다.
-      </p>
-    </div>
-
-    <img src="./images/mobile-design-interior-image-2.png" alt="Interior images 2">
-    <div class="sr-only">
-      <h2 class="text-eng">
-        Contemporary<br />
-        Luxury
-      </h2>
-      <p>
-        깊은 역사를 보존하면서<br />
-        현대의 혁신과 조화를 이룹니다.
-      </p>
-      <p><span class="text-eng">Phantom</span>의 기술에 한계란 없습니다.</p>
-      <p>
-        간편한 조작으로 운전자와 승객에게<br />
-        가장 완벽한 안락함을 선사합니다.
-      </p>
-    </div>
-
-    <img src="./images/mobile-design-exterior-image-1.png" alt="Exterior images 1">
-    <div class="sr-only">
-      <h2 class="text-eng">
-        Discreet.<br />
-        Refined.<br />
-        Timeless.
-      </h2>
-      <p>
-        궁극의 균형.<br />
-        절제된 우아함.<br />
-        모든 기대를 초월하는 자동차.
-      </p>
-    </div>
-
-    <img src="./images/mobile-design-exterior-image-2.png" alt="Exterior images 2">
-    <div class="sr-only">
-      <h2 class="text-eng">
-        A Powerful<br />
-        Presence
-      </h2>
-      <p>
-        <span class="text-eng">Phantom</span>의 판테온 그릴은<br />
-        더욱 높은 곳에 자리잡아<br />
-        과감하고, 우아하며,<br />
-        강인한 스타일을 완성합니다.
-      </p>
-    </div>
-
-    <div class="sr-only">
-      <h2 class="text-eng">Breaking Limitations</h2>
-      <p>
-        궁극의 럭셔리. 파워와 안락함.<br />
-        이 둘의 완벽한 조화.<br />
-        이것이 바로 <span class="text-eng">Phantom</span>입니다.
-      </p>
-    </div>
-  </section>
-
-  <!-- Gallery -->
-  <section id="gallery" class="text-kor">
-    <h1 class="gallery__title text-eng">
-      GALLERY
-    </h1>
-
-    <img src="./images/mobile-gallery-image.jpg" alt="Phantom's gallery image">
-    <div class="sr-only">
-      <h2 class="text-eng">
-        TRUE LUXURY IS<br />
-        DEEPLY PERSONAL
-      </h2>
-      <p>
-        롤스로이스의 가장 순수한 표현은<br />
-        개인적인 표현에서 새로운 가능성을 제시합니다.<br />
-        좌석은 호화롭게 변화시킬 수 있습니다.<br />
-        대쉬보드 뒤의 아름다운 유리 패널은<br />
-        맞춤생산 가능한 입체적인 예술 작품으로,<br />
-        여러분의 상상을 수작업으로 재현해냅니다.<br />
-        <span class="text-eng">Phantom</span>은 맞춤생산의 정점으로, 당신을
-        위한 이미지가 아닌<br />
-        당신에 의한 이미지를 만들어냅니다.<br />
-      </p>
-    </div>
-
-    <div class="sr-only">
-      <h2 class="text-eng">
-        AN ASTONISHING<br />
-        PRESENCE
-      </h2>
-      <p>
-        의심의 여지 없는 아우라.<br />
-        시간 그 자체를 거역하는 존재.<br />
-        <span class="text-eng">Phantom</span>은 시그니쳐 <span class="text-eng"></span>Rolls-Royce</span>입니다.<br />
-        현대 모터카의 상징적이며 영구적인 해석입니다.
-      </p>
-    </div>
-
-    <div class="sr-only">
-      <h2 class="text-eng">
-        MASTER<br />
-        OF YOUR<br />
-        DOMAIN
-      </h2>
-      <p>
-        우상을 위한 우상.<br />
-        <span class="text-eng">Phantom</span>은<br />
-        세상을 움직이는<br />
-        사람들을 움직입니다.<br />
-      </p>
-    </div>
-
-    <div class="sr-only">
-      <h2>
-        SILENT POWER
-      </h2>
-      <p>
-        이는 <span class="text-eng">Phantom</span>을 정의하는 몇 되지 않는 표현입니다. 상징적인 판테온 그릴 뒤의<br />
-        위엄있는 장식은 생명을 가져다줍니다. <span class="text-eng">Phantom</span>의 웅장한 <span class="text-eng"></span>V12</span>는
-        조용하고,<br />
-        힘들이지 않는 것처럼 보이지만 강력합니다.
-      </p>
-    </div>
-  </section>
-
-  <!-- View Specs -->
-  <section id="spec" class="text-kor">
-    <div class="section">
-      <h1 class="spec__title text-eng">
-        VIEW SPECS
-      </h1>
-      <img src="./images/mobile-size-spec.png" class="spec__size-image" alt="Phantom's size">
-    </div>
-    <div class="spec__detail">
-      <!-- 모델명, 출시가 -->
-      <img src="./images/mobile-spec-datail-image.png" class="spec__detail-image" alt="Phantom's spec detail image">
-      <dl class="sr-only">
-        <div>
-          <dt>
-            모델명
-          </dt>
-          <dd class="text-eng">
-            Rolls Royce Phantom SWB
-          </dd>
+    <header>
+        <div class="detail">
+            <img src="img/icons8-open-mail-32.png" alt="">
+            <a href="">
+                <p>shreegopi07@gmail.com</p>
+            </a>
+            <img src="img/icons8-whatsapp-32.png" alt="">
+            <a href="">
+                <p>+91 88668 64190</p>
+            </a>
         </div>
-        <div>
-          <dt>
-            출시가
-          </dt>
-          <dd>
-            6억 3천만원
-          </dd>
+        <nav>
+            <div class="Logo">
+                <img src="img/Background.svg" alt="" class="logo">
+            </div>
+            <div class="nav-bar" id="menu">
+                <li><a href=""><img src="img/icons8-cancel.svg" alt=""></a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-us-page.html">About Us</a></li>
+                <li><a href="gallery-page.html">Gallery</a></li>
+                <li><a href="Certificate.html">Certificate</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+            </div>
+            <img src="img/icons8-menu.svg" alt="" id="hamburger" class="menu-btn">
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="image">
+            <img src="img/img.jpg" alt="Machine">
         </div>
-      </dl>
+        <div class="blurb">
+            <h1>Fast Turnaround VMC Machining You Can Trust</h1>
+            <p>We specialise in precision VMC Machining of metal and plastic parts to service a vast range of industries
+                throughout Ahemdabad in any volume with a 100% Satisfaction Guarantee.</p>
+            <div class="button">
+                <a href="get-quote.html" class="btn1">Get a Quote</a>
+                <a href="contact-us.html" class="btn2">Contact Us</a>
+            </div>
+        </div>
+    </section>
+    <section class="box-data container">
+        <div class="detail">
+            <div class="counter-container">
+                <div class="counter" data-target="10"></div>
+                <span>Years Established</span>
+            </div>
+        </div>
 
-      <!-- 주요제원 -->
-      <dl class="sr-only">
-        <dt>주요제원</dt>
-        <dt>과급방식</dt>
-        <dd>트윈터보</dd>
-        <dt>승차인원</dt>
-        <dd>4인승</dd>
-        <dt>트렁크용량</dt>
-        <dd>548 ltr / 19 ft3</dd>
-        <dt>연비</dt>
-        <dd>
-          5.8km / ℓ (한국기준 연비등급 : 5등급)<br>
-          도심 21.4리터 / 100km / 13.2mpg (영국식 갤런)<br>
-          고속도로 9.7리터 / 100km / 29.1mpg (영국식 갤런)<br>
-          복합 13.9리터 / 100km / 20.3 mpg (영국식 갤런)<br>
-          CO2 배출량 (복합) 319g / km
-        </dd>
-      </dl>
+        <div class="detail2">
+            <div class="counter-container">
+                <div class="counter2" data-target="100"></div>
+                <span>Trusted By Customers</span>
+            </div>
+        </div>
 
-      <!-- 엔진 -->
-      <dl class="sr-only">
-        <dt>엔진</dt>
-        <dt>엔진형식</dt>
-        <dd>V12 6.75리터 터보차저(N74B68)</dd>
-        <dt>배기량</dt>
-        <dd>6,749cc</dd>
-        <dt>연료</dt>
-        <dd>가솔린</dd>
-        <dt>최대출력</dt>
-        <dd>563hp</dd>
-        <dt>최대토크</dt>
-        <dd>91.8kg.m</dd>
-      </dl>
+        <div class="detail">
+            <div class="counter-container">
+                <div class="counter" data-target="500"></div>
+                <span>Completed Projects</span>
+            </div>
+        </div>
+    </section>
 
-      <!-- 성능 -->
-      <dl class="sr-only">
-        <dt>성능</dt>
-        <dt>최고속도</dt>
-        <dd>155 mph / 250km/h (제한)</dd>
-        <dt>가속성능<br />(0-60mph)</dt>
-        <dd>5.1초</dd>
-        <dt>가속성능<br />(0-100km/h)</dt>
-        <dd>5.3초</dd>
-      </dl>
 
-      <!-- 치수 -->
-      <dl class="sr-only">
-        <dt>치수</dt>
-        <dt>전장</dt>
-        <dd>5,762 mm / 226.8 in</dd>
-        <dt>전폭</dt>
-        <dd>2,018 mm / 79.4 in</dd>
-        <dt>전고(공차)</dt>
-        <dd>1,646 mm / 64.8 in</dd>
-        <dt>축거</dt>
-        <dd>3,552mm / 139.8in</dd>
-        <dt>공차중량</dt>
-        <dd>2,560 kg</dd>
-      </dl>
+    <section class="our-service">
+        <div class="heading container">
+            <h6>OUR SERVICES</h6>
+            <h1>What we do</h1>
+        </div>
+        <div class="services container">
+            <div class="box">
+                <img src="img/63c0cae13a7249f35084f745_cnc machining (1).webp">
+                <div class="white">
+                    <h2>VMC Manufacturing</h2>
+                    <p> Order high-quality VMC machined components using our substantial inventory of VMC Lathes and
+                        Machining Centres from our Australian based factory.</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/63c0cae13a72499fa884f748_rapid-prototyping (1).webp">
+                <div class="white">
+                    <h2>Rapid Prototyping</h2>
+                    <p>With our highly skilled staffed and advanced machinery, we are able to provide a 24 hour service
+                        on
+                        any prototyping requirements.</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/63c0cae13a724998ad84f763_assembly production.webp">
+                <div class="white">
+                    <h2> Assembly Production</h2>
+                    <p> We provide full assembly from start to finish and can have a complete product delivered to your
+                        door. Our full production range includes machining, welding, etc.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="process-works">
+        <div class="heading container">
+            <h1>How Our Process Works</h1>
+        </div>
+
+        <div class="process container">
+            <div class="box">
+                <h1>1</h1>
+                <img src="img/63c0cae13a7249d1a584f74b_Group 31.svg">
+                <div class="white">
+                    <h2>Send Your Designs</h2>
+                    <p>Send your design through our website or you can email them and we will get back to you within 4
+                        business hours with a quotation.</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <h1>2</h1>
+                <img src="img/63c0cae13a7249554e84f74c_Vector.svg">
+                <div class="white">
+                    <h2>Manufacture </h2>
+                    <p> Once you have accepted our quote, we will get to work in creating your parts to the highest
+                        quality and will be manufactured in days!</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <h1>3</h1>
+                <img src="img/63c0cae13a724980a784f74e_Group 30.svg">
+                <div class="white">
+                    <h2>Quality Inspection</h2>
+                    <p> Our expert team of engineers carry out rigorous Quality Control to ensure thorough inspections
+                        of your parts and ensure they are right the first time.</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <h1>4</h1>
+                <img src="img/63c0cae13a7249c74184f74d_layer1.svg">
+                <div class="white">
+                    <h2>Delivery</h2>
+                    <p>We ensure on-time delivery to your doorstep by utilising our own delivery drivers and transport
+                        partnerships so we can delivery anywhere you are in the fastest time.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="Experience-Machining container">
+        <div class="Experience">
+            <h1>Over 10 Years of Experience in VMC Machining</h1>
+            <p>Shree Gopi Engineering has over 10 years of experience in servicing some of the largest and most
+                accredited companies throughout Ahemdabad, which has enabled us to build a solid reputation throughout
+                the industry.
+            </p>
+            <div class="button">
+                <a href="get-quote.html" class="btn01">Get a Quote</a>
+                <a href="contact-us.html" class="btn02">Contact Us</a>
+            </div>
+        </div>
+
+        <div class="map-location">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.2108289328503!2d72.67607757536832!3d23.016029979178388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e87bb3b9a9ed5%3A0x3620d8319f80c0ed!2sAbhishree%20Estate!5e0!3m2!1sen!2sin!4v1744632922377!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </section>
+
+    <section class="footer">
+        <ul class="menu-bar container">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about-us-page.html">About Us</a></li>
+            <li><a href="gallery-page.html">Gallery</a></li>
+            <li><a href="Certificate.html">Certificate</a></li>
+            <li><a href="contact-us.html">Contact Us</a></li>
+        </ul>
+
+        <div class="detail2">
+            <img src="img/icons8-open-mail-32.png" alt="">
+            <a href="mailto:shreegopi07@gmail.com">
+                <p>shreegopi07@gmail.com</p>
+            </a>
+
+            <img src="img/icons8-whatsapp-32.png" alt="">
+            <a href="">
+                <p>+91 88668 64190</p>
+            </a>
+
+            <img src="img/icons8-location-32.png" alt="">
+            <a href="">
+                <p>32, Radhika Ind.park, B/h, Abhishreev Estate,Odhav, Ahemdabad-382430.</p>
+            </a>
+        </div>
+        <div class="Logo2 container">
+            <img src="img/Background.svg" alt="" class="logo1">
+        </div>
+
+    </section>
+    <div class="Gopi-Engineering">
+        <p>Shree Gopi Engineering © 2025/ All Rights Reserved | Design & Developed by Gopi Ramani</p>
     </div>
 
-  </section>
-
-  <!-- Contact -->
-  <footer id="contact" class="text-kor">
-    <h1 class="contact__title">
-      롤스로이스 모터카 서울
-    </h1>
-    <div class="contact__all-info">
-      <div class="contact__left">
-        <div class="contact__open">
-          <h2 class="contact__open-title">오픈</h2>
-          <div>
-            <p class="contact__open-time">월 - 일</p>
-            <p class="contact__open-time">오전 9시 - 오후 7시 30분</p>
-          </div>
-        </div>
-        <p class="contact__addr">
-          서울시 강남구 압구정로 445<br>
-          (청담동 100-17) 우편 06010
-        </p>
-      </div>
-      <div class="contact__right">
-        <dl>
-          <div>
-            <dt>전화</dt>
-            <dd>+82 2 - 512 - 5834</dd>
-          </div>
-          <div>
-            <dt>팩스</dt>
-            <dd>+82 2 - 512 - 0557</dd>
-          </div>
-        </dl>
-        <div class="contact__btn">
-          <button type="button">문의하기</button>
-        </div>
-      </div>
-    </div>
-  </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
